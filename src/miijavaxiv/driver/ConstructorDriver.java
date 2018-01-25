@@ -3,15 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package miijavaxiv;
+package miijavaxiv.driver;
+
+import miijavaxiv.Karyawan;
+import miijavaxiv.Owner;
 
 /**
  *
  * @author userx
  */
-public class Aritmatika {
-    public double bagi(int a, int b){
-        return a / b;
-        
+public class ConstructorDriver {
+    public static void main(String[] args) {
+        Owner owner = new Owner();
     }
 }
