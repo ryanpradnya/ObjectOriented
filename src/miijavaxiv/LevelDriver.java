@@ -47,7 +47,7 @@ public class LevelDriver {
         x.add(2);
         x.add(68);
         x.forEach(vx -> System.out.println(vx));
-        System.out.println(x);
+        System.out.println(x.get(0));
         
         Map<String, String> map = new Hashtable();
         map.put("indonesia", "jakarta");
